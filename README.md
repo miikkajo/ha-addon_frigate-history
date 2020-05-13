@@ -1,11 +1,11 @@
-Homeassistant addon for frigate history
+# Homeassistant addon for frigate history
 frigate-history listens to frigate mqtt events and dumps snapshots to disk
 it rolls stack of images with desired historysize
 
 
 
-example lovelace config:
-
+## example lovelace config:
+```
   - badges: []
     cards:
       - cards:
@@ -82,3 +82,4 @@ example lovelace config:
     panel: true
     path: detections
     title: Detections
+```
